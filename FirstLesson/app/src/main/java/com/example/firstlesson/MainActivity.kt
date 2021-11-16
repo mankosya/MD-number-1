@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             val name = firstName.text.toString()
             val age = age.text.toString().toInt()
             val dayOfBirth = birthDate.text.toString()
-            val intent = Intent(this, SecondActivity::class.java)
+//            val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("NAME", name)
             intent.putExtra("AGE", age)
             intent.putExtra("DATE", dayOfBirth)
